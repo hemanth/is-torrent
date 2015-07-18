@@ -18,8 +18,7 @@ module.exports = function (torrent) {
 
 	return !!(torrent.info && (torrent.info['name.utf-8'] || torrent.info.name)
 	       && torrent.info['piece length'] && torrent.info.pieces &&
-				(torrent.info.files && torrent.info.files.filter(function (file) {
-				      return typeof file.length !== 'number' &&
-										 !(file['path.utf-8'] || file.path)
-				    }) || (torrent.info.length === 'number')));
+	       (torrent.info.files && torrent.info.files.filter(function (file) {
+	         return typeof file.length !== 'number' && !(file['path.utf-8'] || file.path)
+	       }) || (torrent.info.length === 'number')));
 };

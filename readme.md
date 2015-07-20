@@ -15,7 +15,7 @@ $ npm install --save is-torrent
 ```js
 var isTorrent = require('is-torrent');
 
-isTorrent('my.torrent'); // ture/false
+isTorrent('my.torrent'); // true/false
 ```
 
 ## License

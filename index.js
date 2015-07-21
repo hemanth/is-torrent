@@ -6,8 +6,8 @@ var readFileSync = require('fs').readFileSync;
 module.exports = function (torrent) {
 	try {
 		if (Buffer.isBuffer(torrent)) {
-	    torrent = bencode.decode(torrent)
-	  } else if (pathExists(torrent)) {
+			torrent = bencode.decode(torrent)
+		} else if (pathExists(torrent)) {
 			torrent = bencode.decode(readFileSync(torrent));
 		} else {
 			return false;

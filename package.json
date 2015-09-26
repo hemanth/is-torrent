@@ -22,10 +22,10 @@
     ""
   ],
   "dependencies": {
-    "bencode": "^0.7.0",
-    "path-exists": "^1.0.0"
+    "bencode": "0.7.0",
+    "path-exists": "1.0.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "2.3.3"
   }
 }

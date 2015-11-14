@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "bencode": "^0.7.0",
-    "path-exists": "^1.0.0"
+    "path-exists": "^2.1.0"
   },
   "devDependencies": {
     "mocha": "*"

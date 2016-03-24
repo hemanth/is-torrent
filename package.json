@@ -1,6 +1,6 @@
 {
   "name": "is-torrent",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Detects if a given file path/buffer is a torrent file.",
   "license": "MIT",
   "repository": "hemanth/is-torrent",
@@ -19,7 +19,9 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "check",
+    "is",
+    "torrent"
   ],
   "dependencies": {
     "bencode": "^0.8.0",

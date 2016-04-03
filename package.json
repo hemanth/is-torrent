@@ -24,7 +24,7 @@
     "torrent"
   ],
   "dependencies": {
-    "bencode": "^0.8.0",
+    "bencode": "^0.9.0",
     "path-exists": "^2.1.0"
   },
   "devDependencies": {

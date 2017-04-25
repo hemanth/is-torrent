@@ -28,6 +28,6 @@
     "path-exists": "^3.0.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "2.5.0"
   }
 }
